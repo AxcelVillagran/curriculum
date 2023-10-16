@@ -1,0 +1,22 @@
+
+* {
+    font-family: 'Oxygen', sans-serif;
+}
+.h2 {
+    font-family: 'Kanit' ,'Times New Roman', serif;
+    color: #094067;
+}
+h1 {
+    font-family: 'Roboto Slab',Georgia, serif;
+    color: #094067;
+}
+#educacion {
+    background-color: #90b4ce;
+}
+#principal {
+    margin: 2px 1px 1.5px;
+    margin-top: 0.8rem;
+    border: 1pt solid black;
+    padding: 2% 1.2%;
+    
+}
