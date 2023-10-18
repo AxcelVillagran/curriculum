@@ -2,21 +2,64 @@
 * {
     font-family: 'Oxygen', sans-serif;
 }
-.h2 {
+h2 {
     font-family: 'Kanit' ,'Times New Roman', serif;
-    color: #094067;
+    color: #00473e;
 }
 h1 {
     font-family: 'Roboto Slab',Georgia, serif;
-    color: #094067;
+    color: #00473e;
 }
-#educacion {
-    background-color: #90b4ce;
+.tituloverde{
+    font-family: 'Kanit' ,'Times New Roman', serif;
+    color: white;
+    text-align: center;
+}
+th,td{
+    padding: 10px;
+    color: #00473e;
+    text-align: center;
+}
+th{
+    color: #fa5246;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+table td + td { border-left:2px solid #fa5246; }
+#tablaproyectos{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 60%;
+    border-style:groove;
+    height: 150px;
 }
 #principal {
     margin: 2px 1px 1.5px;
     margin-top: 0.8rem;
     border: 1pt solid black;
     padding: 2% 1.2%;
-    
+    width: 100%;
+    background-color: #00473e;
+    align-self: center;
+}
+.imgCV {
+    float: right;
+    border: 5px solid #00473e;
+    border-radius: 60%;
+    border-width: 10%;
+}
+
+input[type=text],textarea{
+    width: 100%;
+    resize: vertical;
+}
+input[type=submit]{
+    background-color: #faae2b;
+}
+.videoRedes{
+    text-align: center;
 }
