@@ -63,3 +63,8 @@ input[type=submit]{
 .videoRedes{
     text-align: center;
 }
+.grid{
+    display: grid;
+    column-gap: 1180px;
+    grid-template-columns: auto auto auto;
+}
