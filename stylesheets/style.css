@@ -11,9 +11,42 @@ main{
     /* Número de columnas: 6 * 1fr */
     grid-template-columns: repeat(6, 1fr); 
 }
+header{
+    grid-column: 1/ 7;
+    grid-row:  1/ 2;
+}
 #foto{
     grid-column: 1/ 7;
-    grid-row:  1/ 1;
+    grid-row:  2/ 3;
+}
+#inicio{
+    grid-column: 1/ 7;
+    grid-row:  3/ 4;
+}
+
+#educacion{
+    grid-column: 1/ 7;
+    grid-row:  4/ 5;
+}
+#experiencia{
+    grid-column: 1/ 7;
+    grid-row:  5/ 6;
+}
+#proyectos{
+    grid-column: 1/ 7;
+    grid-row:  6/ 7;
+}
+#habilidades{
+    grid-column: 1/ 7;
+    grid-row:  7/ 8;
+}
+#contacto{
+    grid-column: 1/ 7;
+    grid-row:  8/ 9;
+}
+footer{
+    grid-column: 1/ 7;
+    grid-row:  9/ 10;
 }
 * {
     font-family: 'Oxygen', sans-serif;
