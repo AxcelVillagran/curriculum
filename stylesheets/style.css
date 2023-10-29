@@ -107,6 +107,7 @@ input[type=text],textarea{
 }
 input[type=submit]{
     background-color: #faae2b;
+    width: 5em;  height: 2em;
 }
 .videoRedes{
     text-align: center;
@@ -125,4 +126,7 @@ label{
 }
 .textovineta{
     color: black;
+}
+#botonenviar{
+    width: 20px;
 }
