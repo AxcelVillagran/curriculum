@@ -1,14 +1,7 @@
 main{
-    /* Modo de colocar los elementos internos en una rejilla */
     display: grid; 
-
-    /* Separación entre filas */
     row-gap: 0.5rem; 
-
-    /* Separación entre columnas */
     column-gap: 0.5rem; 
-
-    /* Número de columnas: 6 * 1fr */
     grid-template-columns: repeat(6, 1fr); 
 }
 header{
@@ -127,5 +120,5 @@ label{
     font-size: large;
 }
 #yo{
-    font-size: 120%;
+    
 }
