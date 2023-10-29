@@ -82,7 +82,7 @@ table td + td { border-left:2px solid #fa5246; }
     background-color: white;
     width: 60%;
     border-style:groove;
-    height: auto;
+    height: 200px;
 }
 #principal {
     margin: 2px 1px 1.5px;
