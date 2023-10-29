@@ -11,6 +11,7 @@ header{
 #navega{
     grid-column: 1/ 4;
     grid-row:  2/ 3;
+    color: #fa5246;
 }
 #foto{
     grid-column: 5/ 7;
@@ -117,8 +118,8 @@ input[type=submit]{
 }
 -->
 label{
-    font-size: large;
+    font-size: 120%;
 }
-#yo{
-    
+.textovineta{
+    color: black;
 }
