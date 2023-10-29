@@ -8,9 +8,7 @@ header{
     grid-column: 1/ 7;
     grid-row:  1/ 2;
 }
-label{
-    font-size: 120%;
-}
+
 #navega{
     grid-column: 1/ 4;
     grid-row:  2/ 3;
@@ -106,7 +104,7 @@ table td + td { border-left:2px solid #fa5246; }
 input[type=text],textarea{
     width: 100%;
     resize: vertical;
-    font-size: 120%;
+    font-size: medium;
 }
 input[type=submit]{
     background-color: #faae2b;
