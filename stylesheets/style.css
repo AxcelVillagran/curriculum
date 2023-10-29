@@ -73,7 +73,7 @@ th{
 table{
     margin-left: auto;
     margin-right: auto;
-
+    height: fit-content;
 }
 table td + td { border-left:2px solid #fa5246; }
 #tablaproyectos{
@@ -119,6 +119,9 @@ input[type=submit]{
 -->
 label{
     font-size: 120%;
+}
+.vineta{
+    color: #fa5246;
 }
 .textovineta{
     color: black;
