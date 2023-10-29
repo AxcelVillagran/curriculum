@@ -76,6 +76,9 @@ table{
     margin-right: auto;
     height: fit-content;
 }
+label{
+    font-size: medium;
+}
 table td + td { border-left:2px solid #fa5246; }
 #tablaproyectos{
     margin-left: auto;
@@ -104,7 +107,7 @@ table td + td { border-left:2px solid #fa5246; }
 input[type=text],textarea{
     width: 100%;
     resize: vertical;
-    font-size: medium;
+    font-size: small;
 }
 input[type=submit]{
     background-color: #faae2b;
