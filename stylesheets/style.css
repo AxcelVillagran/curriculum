@@ -104,10 +104,16 @@ table td + td { border-left:2px solid #fa5246; }
     border-width: 10%;
 }
 
-input[type=text],textarea{
+textarea{
     width: 100%;
     resize: vertical;
     font-size: small;
+}
+.pequenos{
+    height: 50px;
+}
+.grandes{
+    height: 100px;
 }
 input[type=submit]{
     background-color: #faae2b;
